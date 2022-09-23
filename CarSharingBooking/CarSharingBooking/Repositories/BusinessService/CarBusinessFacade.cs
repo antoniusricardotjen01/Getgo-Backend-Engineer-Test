@@ -25,8 +25,9 @@ namespace CarSharingBooking.Repositories.BusinessService
         {
             return GetAllCarDetails().
                     Where(car => car.CarStatus == Constant.Vacant &&
-                         (car.CarCoordinateX - userCoordinateX) + (car.CarCoordinateY - userCoordinateY) <= 2).
-                         OrderBy(x => x.CarCoordinateX).ThenBy(x=>x.CarCoordinateY);
+                         ((car.CarCoordinateX - userCoordinateX) + (car.CarCoordinateY - userCoordinateY) >= 0) &&
+                         ((car.CarCoordinateX - userCoordinateX) + (car.CarCoordinateY - userCoordinateY) <= 2)).
+                         OrderBy(x => x.CarCoordinateX).ThenBy(x => x.CarCoordinateY);
         }
 
         public bool BookCar(int userCoordinateX, int userCoordinateY, string username)

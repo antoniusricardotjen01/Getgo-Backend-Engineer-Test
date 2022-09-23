@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Getgo-Backend-Engineer-Test\\CarSharingBooking\\CarSharingBooking\\CarSharingBooking.csproj": {}
+    "C:\\Getgo-Backend-Engineer-Test-Official\\CarSharingBooking\\CarSharingBooking\\CarSharingBooking.csproj": {}
   },
   "projects": {
-    "C:\\Getgo-Backend-Engineer-Test\\CarSharingBooking\\CarSharingBooking\\CarSharingBooking.csproj": {
+    "C:\\Getgo-Backend-Engineer-Test-Official\\CarSharingBooking\\CarSharingBooking\\CarSharingBooking.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Getgo-Backend-Engineer-Test\\CarSharingBooking\\CarSharingBooking\\CarSharingBooking.csproj",
+        "projectUniqueName": "C:\\Getgo-Backend-Engineer-Test-Official\\CarSharingBooking\\CarSharingBooking\\CarSharingBooking.csproj",
         "projectName": "CarSharingBooking",
-        "projectPath": "C:\\Getgo-Backend-Engineer-Test\\CarSharingBooking\\CarSharingBooking\\CarSharingBooking.csproj",
+        "projectPath": "C:\\Getgo-Backend-Engineer-Test-Official\\CarSharingBooking\\CarSharingBooking\\CarSharingBooking.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Getgo-Backend-Engineer-Test\\CarSharingBooking\\CarSharingBooking\\obj\\",
+        "outputPath": "C:\\Getgo-Backend-Engineer-Test-Official\\CarSharingBooking\\CarSharingBooking\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
